@@ -1,0 +1,106 @@
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* .navbarLogo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  } */
+  .uploads{
+    display: flex;
+    text-transform: uppercase;
+    background-color: rgb(148, 144, 144);
+    border-radius: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+  .uploads img{
+    width:12px;
+    height:18px;
+  }
+  .discover{
+    color: #ffa500;
+  }
+ .get{
+  text-decoration: none;
+  color: white;
+ }
+ 
+  .get:hover{
+   color: orange;
+  }
+  .createaccount{
+    text-transform: lowercase;
+  }
+  .createaccount:hover{
+    color:#ffa500
+  }
+  .signin{
+    text-transform: lowercase;
+  }
+  .signin:hover{
+   color: #ffa500;
+  }
+ .note{
+  display: flex;
+  width:30px;
+  cursor: pointer;
+ }
+  
+  .navbarLinks {
+    display: flex;
+    text-transform: uppercase;
+     gap: 1rem;
+  }
+  
+  .navbarLinks a {
+    color: white;
+    gap:3rem;
+    text-decoration: none;
+  }
+  
+  .navbarSearch input {
+    padding: 0.5rem;
+    padding-left: 3rem;
+    border-radius: 5px;
+    border: none;
+  }
+.menuButton {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 750px) {
+    .navbarLinks {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+    }
+  
+    .navbarLinks.open {
+      display: flex;
+    }
+  
+    .menuButton {
+      display: block;
+    }
+  }
