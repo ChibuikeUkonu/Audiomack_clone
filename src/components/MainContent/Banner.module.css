@@ -1,0 +1,39 @@
+.Banner_container{
+    background-color: black;
+    margin-top: 2px;
+    border:solid 1px rgb(46, 45, 45);
+    color:white;
+    font-size: medium;
+    display: flex;
+    align-items:center;
+}
+.Banner_container div h1{
+    font-size: xx-large;
+}
+.help{
+text-transform: uppercase;
+font-size: medium;
+
+}
+.text{
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 40% 65%
+}
+.music_upload button{
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
+    border:solid 1px #ffa500;
+    margin-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+    background-color: #ffa500;
+}
+
+
+

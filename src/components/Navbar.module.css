@@ -4,8 +4,8 @@
     align-items: center;
     cursor: pointer;
     padding: 1rem 2rem;
-    background-color: #333;
-    color: white;
+    background-color: #040404;
+    color: orange;
   }
   
   /* .navbarLogo a {
@@ -17,8 +17,9 @@
   .uploads{
     display: flex;
     text-transform: uppercase;
-    background-color: rgb(148, 144, 144);
+    background-color: rgb(11, 11, 11);
     border-radius: 10px;
+    border: solid 1px black;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 5px;
@@ -27,11 +28,14 @@
   }
   .uploads img{
     width:12px;
+    color:#ffa500;
     height:18px;
   }
-  .discover{
-    color: #ffa500;
+  .uploads a{
+    font-size: small;
+    font-weight: 600;
   }
+
  .get{
   text-decoration: none;
   color: white;
@@ -61,7 +65,7 @@
   .navbarLinks {
     display: flex;
     text-transform: uppercase;
-     gap: 1rem;
+     gap: 1.5rem;
   }
   
   .navbarLinks a {
@@ -70,12 +74,15 @@
     text-decoration: none;
   }
   
-  .navbarSearch input {
-    padding: 0.5rem;
-    padding-left: 3rem;
+  /* .navbarSearch input {
+    padding: 0.4rem;
+    color:white;
+    width:180px;
+    background-color: black;
+    padding-left: 1rem;
     border-radius: 5px;
-    border: none;
-  }
+    border: solid 1px;
+  } */
 .menuButton {
     display: none;
     background: none;
@@ -85,7 +92,7 @@
     cursor: pointer;
   }
   
-  @media (max-width: 750px) {
+  @media (max-width: 780px) {
     .navbarLinks {
       display: none;
       flex-direction: column;
@@ -104,3 +111,37 @@
       display: block;
     }
   }
+  .discover{
+    position: relative;
+    display: block;
+    width: 100px;
+}
+.discover link{
+  width: 120px;
+
+}
+
+.dropdown{
+    position: absolute;
+    width:120px;
+    margin-left: 10px;
+    top: 15px;
+    gap:3px;
+    right: 0px;
+    background-color: rgb(23, 22, 22);
+    display: none;
+}
+.dropdown h1{
+  font-weight: 200;
+  display: flex;
+margin-left: 10px;
+  font-size: 11px;
+}
+.dropdown :hover{
+ color: #ffa500;
+ transform: scale(1);
+}
+.discover:hover .dropdown{
+  display: block;
+  top:19px;
+}

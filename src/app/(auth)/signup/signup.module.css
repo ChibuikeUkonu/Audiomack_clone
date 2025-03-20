@@ -1,0 +1,132 @@
+.signin{
+    width: 30vw;
+    height: 510px;
+    margin-left: 370px;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+    scrollbar-width: none;
+    margin-top: 30px;
+    background-color:black;
+}
+.hwith{
+    padding: 15px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    justify-content: space-between;
+
+}
+.hwith h1{
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+.continue{
+    display: flex;
+    padding: 10px 45px;
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+  align-items: center;
+  gap:6px;
+border: solid 1px rgb(36, 35, 35);
+}
+.continue a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.continue:hover{
+    background-color: rgb(51, 51, 51);
+    color: rgb(101, 99, 99);   
+}
+.facebook{
+    display: flex;
+    background-color: rgb(39, 37, 37);
+    padding: 10px 45px;
+    border-radius: 10px;
+  align-items: center;
+  gap:7px;
+border: solid 1px rgb(29, 28, 28);    
+}
+.facebook a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.facebook:hover{
+    background-color: rgb(51, 51, 51);
+    color: rgb(101, 99, 99);   
+}
+.Appe{
+    display: flex;
+    background-color: rgb(41, 41, 41);
+   padding: 10px 56px;
+    border-radius: 10px;
+  align-items: center;
+  gap:7px;
+border: solid 1px rgb(25, 24, 24);   
+}
+.Appe a{
+    color: white;
+    font-size: large;
+    text-decoration: none;  
+}
+.Appe:hover{
+    background-color: rgb(51, 51, 51);
+    color: rgb(101, 99, 99);  
+}
+.email{
+    display: flex;
+    padding: 10px 56px;
+    background-color: rgb(26, 26, 26);
+ border-radius: 10px;
+  align-items: center;
+  gap:7px;
+border: solid 1px rgb(21, 21, 21);    
+}
+.email a{
+    color: white;
+    font-size: large;
+    text-decoration: none;    
+}
+.email:hover{
+ background-color: rgb(51, 51, 51);
+ color: rgb(241, 235, 235);
+}
+.line{
+    border: solid 1px rgb(60, 59, 59);
+}
+.terms{
+    display: flex;
+    padding: 7px 20px;
+    justify-content: center;
+    font-size: small;
+    gap:2px;
+    align-items: center;
+}
+.terms a{
+ text-decoration: none;
+}
+.trouble{
+    display: flex;
+    padding: 5px 10px;
+    font-size: small;
+    gap:2px;
+    justify-content: center;
+    align-items: center;
+}
+.trouble a{
+    color:#ffa500;
+    text-decoration: none;
+}
+.terms h3{
+    gap:3px;
+    color: white;
+}
+.terms span{
+    gap:5px;
+    color: white;
+}

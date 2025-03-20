@@ -1,19 +1,22 @@
  'use client'
-import NavBar from '@/components/Navbar'
-import React from 'react'
+import NavBar from '@/components/Navbar';
+import React from 'react';
 import Image from 'next/image'
+import Banner from '@/components/MainContent/Banner';
 import MusicCard from '@/components/music/MusicCard'
 import Header from '@/components/layout/Header'
+import SideBar from '@/components/SideBar/SideBar';
+// import SignPage from '@/components/auth/signin/page';
 
-const page = () => {
+export default function Home() {
   return (
-    <div> 
+    <div className="container Page_container"> 
+      {/* <SignPage/> */}
       <NavBar/>
-      
-      <Header/>
-        </div>
+      <Banner/>
+      <SideBar/>
+    </div>
     
   )
 }
 
-export default page

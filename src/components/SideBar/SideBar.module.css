@@ -1,0 +1,150 @@
+/* components/Sidebar/Sidebar.module.css */
+.sidebar {
+    width: 293px;
+    display: flex;
+    cursor: pointer;
+    height: 100vh;
+    color: white;
+    overflow-y:scroll;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    background-color: black;
+    padding: 19px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .line{
+    border: solid rgb(67, 66, 66) 1px;
+  }
+  .Genres{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+  }
+  /* .Genres button{
+  cursor: pointer;
+  } */
+  
+  .sidebar h1{
+    color: #ffa500;
+   font-size: small;
+   text-transform: uppercase;
+  }
+  .sidebar h3:hover{
+   color: #ffa500;
+  }
+  .twp{
+    display: flex;
+    color: white;
+    gap:7px;
+    margin-bottom: 10px;
+  }
+  /* .gen:hover{
+    border: solid 1px #ccc;
+    color:#ccc
+  } */
+  .three{
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+    gap:17px;
+  }
+  /* .three :hover{
+   border: solid 1px #ccc;
+   color: #ccc;
+  } */
+  .jazz{
+    border: solid rgb(48, 47, 47);
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px
+  }
+  .thret{
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+    gap:17px; 
+  }
+  .pop{
+    border: solid rgb(48, 47, 47);
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px 
+  }
+  .thrht{
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+    gap:17px;
+  }
+  .rock{
+    border: solid rgb(48, 47, 47);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px 
+  }
+  .juyt{
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+    gap:17px;
+  }
+  .podcast{
+    border: solid rgb(48, 47, 47);
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px
+  }
+  .geng{
+    border: solid orange;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .gen{
+    border: solid rgb(48, 47, 47);
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px; 
+  }
+  
+  /* .sidebar h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  } */
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .sidebar ul h1 {
+    margin: 16px 0;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
