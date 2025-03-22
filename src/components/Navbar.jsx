@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css'
 import Image from 'next/image';
+import { useContext } from 'react';
 import { SearchMusic } from '@/util/FetchData';
 import { MdFileUpload } from "react-icons/md";
 import AudioMack from './MainContent/AudioMack';
@@ -11,6 +12,7 @@ import SearchBar from './SearchBar';
 
 const NavBar = () => {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
+
 
   return (
     <nav className={styles.navbar}>
@@ -49,8 +51,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       <Image className={styles.note} src='/notification.png'width={30}height={30}alt='image'/>
       <button className={styles.uploads}>
       {/* <Image src='/uploads.png'width={20}height={20}alt='image'/> */}
-      <MdFileUpload color='#ffa500'size={20}/>
-      <Link href="#">Upload</Link> 
+      <MdFileUpload color='#ffa500'size={20} />
+      <Link href="/upload">Upload</Link> 
       </button>
     </div>         
     <button

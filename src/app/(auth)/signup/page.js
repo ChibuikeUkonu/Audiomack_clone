@@ -42,6 +42,7 @@ const page = () => {
       <div className={style.trouble}>
         <Link href='#'>Having trouble signing in?</Link>
       </div>
+      
   </div>
   )
 }

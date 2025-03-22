@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    gap:30px;
+    cursor: pointer;
+    color:white;
+  }
+  .navbarLogo{
+    background-color: #ffa500;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  .navbarSearch h3{
+    font-size: small;
+    text-transform: uppercase;
+    font-family: var(--font-open-sans);
+  }
+  .navbarSearch{
+    display: flex;
+    align-items: center;
+    gap:5px;
+  }
+  .create{
+    display: flex;
+    margin-left: 390px;
+    gap:3px;
+  }
+  .create a{
+    color:white;
+    text-decoration: none;
+  }
+  .uploads a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .uploads{
+    display: flex;
+    text-transform: uppercase;
+    background-color: rgb(11, 11, 11);
+    border-radius: 10px;
+    border: solid 1px black;
+    margin-left: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+  .line{
+    border: solid 1px rgb(14, 14, 14);
+  }
+  .select{
+    color: white;
+  }
+  .select h1{
+ font-size: x-larger;
+ font-weight: 600;
+ line-height: 0;
+ text-align: center;
+ margin-bottom: 30px;
+  }
+  .select h3{
+    font-size: medium;
+    line-height: 0;
+    text-align: center;
+    color: rgb(146, 143, 143);
+  }
