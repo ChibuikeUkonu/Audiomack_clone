@@ -13,8 +13,8 @@ const handleSearch = async (e) => {
     e.preventDefault();
     setLoading(true)
 
-    const data = await SearchMusic(searchQuery)
-      setResult(data.videos)
+    const data = await SearchMusic(`q=${searchQuery}&type=artist,album,playlist`)
+      setResult(data)
     console.log(data)
     setLoading(false)
   }
