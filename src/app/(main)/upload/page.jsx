@@ -56,12 +56,20 @@ const page = () => {
     <GoDotFill size={30} />    
     </div>
     </div>
-   <div className={styles.next}>
     <div className={styles.supported}>
     <button className={styles.bolht}>Next</button>
     </div>
-   </div>
+    <div className={styles.suppor}>
+      <p><strong>Supported file types:</strong> Zip, MP3, WAV, AIFF, OGG, FLAC and M4A.<strong> File Size:</strong> Up to 250MB per song.</p>
     </div>
+    <div className={styles.auto}>
+      <div className={styles.auts}>
+      <p>Audiomack uploads are for artists and content creators only. DO NOT upload your personal music collection or</p>
+      <p>unauthorized content. Accounts which upload infringing material will be banned and blocked immediately.</p>
+      <h3 className={styles.copy}>Copyright compliance by<span style={{ color:"#00Bfff"}}>ACRcloud</span></h3>
+    </div>
+    </div>
+   </div>
   )
 }
 

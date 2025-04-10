@@ -1,24 +1,26 @@
 import React, { useContext, useState } from 'react'
-import { MusicContext } from '@/contexts/MusicContext'
+import { SearchContext } from '@/contexts/MusicContext';
 import { SearchMusic } from '@/util/FetchData'
 import { CiSearch } from "react-icons/ci";
 
 const SearchBar = () => {
-const {search, setSearch} = useContext(MusicContext)
-const [searchResult, setLoading] = useState(false)
+const {result, setResult} = useContext(SearchContext )
+const [loading, setLoading] = useState(false)
 const [searchQuery, setSearchQuery] = useState("")
-const [result, setResult] = useState([])
+// const [result, setResult] = useState([])
 
 const handleSearch = async (e) => {
     e.preventDefault();
     setLoading(true)
 
     const data = await SearchMusic(`q=${searchQuery}&type=artist,album,playlist`)
-      setResult(data)
-    console.log(data)
-    setLoading(false)
-  }
-
+      setResult([data])
+      console.log(data)
+      setLoading(false)
+     
+    }
+    
+    
   return (
 
     <div>

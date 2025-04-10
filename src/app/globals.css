@@ -5,3 +5,10 @@ body{
     overflow-x: hidden;
     background-color: rgb(10, 10, 10);
 }
+.con{
+display: flex;
+background-color: aqu;
+width: 90vw;
+height: 800px;
+/* justify-content: space-between; */
+}

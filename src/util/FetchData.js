@@ -3,7 +3,7 @@ const BASE_URL = 'https://api.spotify.com/v1'
 const options ={
    method: 'GET',
    headers: {
-      Authorization: 'Bearer BQBZJkaADcjogoYuLX_9neOtlw-jHR2BhV5Q2syNmdmSQwW95IzA1ysRPROlZWS7yzzpg5dXG7PonVbFNre-cNAWg9lD3pHE5espY4WhLltLQuTKAhXfgXZK63O7ZX0tHT-yrgriflI',
+      Authorization: 'Bearer BQDpbV0NVyWrn0lsP_O8RGpV_kEF-49eGHZe7leZGlCe3GVuPBumVZh-QFn8eaDrzi5uLolguPCFxRfXhfWQXEBwbV9xIDEsN7zgN0mBwh1wcQwfi1ZgPLVSm6O7lfuUUUFrYdKrXLU',
 }
 
 }
